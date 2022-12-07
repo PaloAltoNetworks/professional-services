@@ -30,7 +30,7 @@ export const PS_HERO_CONTENT = {
         }
       },
       image: {
-        src: "/img/quickstarts/qs-software-ngfw.png",
+        src: "img/quickstarts/qs-software-ngfw.png",
         alt: "QS Software NGFW - Public Cloud"
       },
     },
@@ -45,7 +45,7 @@ export const PS_HERO_CONTENT = {
         }
       },
       image: {
-        src: "/img/terraform/terraform-article.jpeg",
+        src: "img/terraform/terraform-article.jpeg",
         alt: "Terraform Add-On Service"
       },
     },
@@ -60,7 +60,7 @@ export const PS_HERO_CONTENT = {
         }
       },
       image: {
-        src: "/img/terraform/technology-partner-award.jpg",
+        src: "img/terraform/technology-partner-award.jpg",
         alt: "Technology Partner of The Year"
       },
     },
@@ -87,12 +87,12 @@ export const TERRAFORM_MODULE_CONTENT = {
         content: [
           {
             link: "https://registry.terraform.io/modules/PaloAltoNetworks/vmseries-modules/aws/latest",
-            logoSrc: "/img/terraform/terraform-logo.png",
+            logoSrc: "img/terraform/terraform-logo.png",
             logoAlt: "AWS Logo"
           },
           {
             link: "https://github.com/PaloAltoNetworks/terraform-aws-vmseries-modules",
-            logoSrc: "/icons/github-logo.svg",
+            logoSrc: "icons/github-logo.svg",
             logoAlt: "GitHub Logo"
           }
         ]
@@ -107,12 +107,12 @@ export const TERRAFORM_MODULE_CONTENT = {
         content: [
           {
             link: "https://registry.terraform.io/modules/PaloAltoNetworks/vmseries-modules/azurerm/latest",
-            logoSrc: "/img/terraform/terraform-logo.png",
+            logoSrc: "img/terraform/terraform-logo.png",
             logoAlt: "AWS Logo"
           },
           {
             link: "https://github.com/PaloAltoNetworks/terraform-azurerm-vmseries-modules",
-            logoSrc: "/icons/github-logo.svg",
+            logoSrc: "icons/github-logo.svg",
             logoAlt: "GitHub Logo"
           }
         ]
@@ -127,12 +127,12 @@ export const TERRAFORM_MODULE_CONTENT = {
         content: [
           {
             link: "https://registry.terraform.io/modules/PaloAltoNetworks/vmseries-modules/google/latest",
-            logoSrc: "/img/terraform/terraform-logo.png",
+            logoSrc: "img/terraform/terraform-logo.png",
             logoAlt: "AWS Logo"
           },
           {
             link: "https://github.com/PaloAltoNetworks/terraform-google-vmseries-modules",
-            logoSrc: "/icons/github-logo.svg",
+            logoSrc: "icons/github-logo.svg",
             logoAlt: "GitHub Logo"
           }
         ]

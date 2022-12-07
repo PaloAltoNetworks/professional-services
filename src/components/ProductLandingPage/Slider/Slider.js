@@ -10,8 +10,8 @@ function SliderComponent(props) {
     speed: 850,
     slidesToShow: 2,
     slidesToScroll: 2,
-    nextArrow: <img src="/icons/slider-arrow-forward.svg" />,
-    prevArrow: <img src="/icons/slider-arrow-back.svg" />,
+    nextArrow: <img src="icons/slider-arrow-forward.svg" />,
+    prevArrow: <img src="icons/slider-arrow-back.svg" />,
     responsive: [
       {
         breakpoint: 996,

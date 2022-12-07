@@ -74,7 +74,7 @@ export const TERRAFORM_MODULE_CONTENT = {
   ),
   subheader: (
     <p>
-      Palo Alto Networks develops Terraform modules which are freely available to assist anyone who wants to deploy and configure their public cloud VN-Series infrastructure, alongside the rest of their infrastructure.
+      Palo Alto Networks develops and supports Terraform modules which are freely available to assist anyone who wants to deploy and configure their public cloud VM-Series infrastructure, alongside the rest of their infrastructure.
     </p>
   ),
   providerCards: [

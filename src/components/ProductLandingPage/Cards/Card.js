@@ -7,18 +7,15 @@ function Card({ cta, description, image, title, type, links, releaseTagUrl }) {
   const [latestTag, setLatestTag] = useState('');
 
   useEffect(() => {
-    const fetchReleaseTag = async () => {
-      try {
-        const response = await fetch(releaseTagUrl);
-        const data = await response.json();
-        setLatestTag(data[0].name);
-      } catch (e) {
-        console.log(e)
-      }
-    }
+    if (!releaseTagUrl) return;
 
-    fetchReleaseTag()
-  }, [])
+    (async () => {
+      const response = await fetch(releaseTagUrl);
+      const data = await response.json();
+      setLatestTag(data[0].name);
+    })();
+
+  }, [releaseTagUrl])
 
   const CardFooterCTA = ({ cta }) => {
     const { content, type } = cta

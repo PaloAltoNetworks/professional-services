@@ -1,0 +1,134 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  width: 100%;
+  min-height: 350px;
+  padding: 2rem 0;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  background: none;
+}
+
+html[data-theme="dark"] .heroImage {
+  content: url("/img/PANW_Parent_Logo_White.svg");
+}
+
+.heroImage {
+  width: 50%;
+  max-width: 500px;
+}
+
+.beta {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding-bottom: 0.05rem;
+  background-color: var(--ifm-color-gray-300);
+}
+
+.betaText {
+  padding: 0.6rem;
+  color: black !important;
+  margin: auto;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quickstart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em 0 0 1em;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 1em 1em 0;
+}
+
+.headerImage {
+  height: 300px;
+  width: 200px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  padding: 1rem 0;
+}
+
+.heroProjectTagline {
+  color: var(--ifm-color-emphasis-900);
+  font-size: clamp(2rem, -0.875rem + 8.333vw, 3rem);
+  margin: 0;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heroProjectKeywords {
+  color: var(--ifm-color-main);
+}
+
+.hero__title {
+  z-index: 1 !important;
+}
+
+.hero__subtitle {
+  z-index: 1 !important;
+  color: var(--ifm-color-gray-700) !important;
+}
+
+.heroLogo {
+  max-width: 30%;
+  height: auto;
+  margin: 0 auto;
+  z-index: 1;
+}
+
+.text__gray {
+  color: #000 !important;
+}
+
+.text__blue {
+  color: #00c0e8 !important;
+}
+
+.docs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.buttons-tools-github {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 1em 1em 0 !important;
+}
+
+.featuredContainer {
+  scroll-margin-top: 5vh;
+}
